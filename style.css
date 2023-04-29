@@ -1,0 +1,17 @@
+html,
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    border: 1px solid #000;
+}
+
+.item:hover {
+    background-color: #000;
+}
